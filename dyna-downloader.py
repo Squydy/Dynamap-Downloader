@@ -127,7 +127,7 @@ def main():
         type=int,
         choices=[0, 1, 2, 3, 4, 5],
         default=5,
-        help="Zoom level: 0, 1, 2, 3, 4, or 5 (default: 5)",
+        help="Zoom level: 0, 1, 2, 3, 4, or 5 (default 5, all the way zoomed out)",
     )
     #multi threading for downloading, please be considerate of the server as youre sending at least thousands of requests usually
     parser.add_argument(
